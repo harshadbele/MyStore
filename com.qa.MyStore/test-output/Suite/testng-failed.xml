@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.qa.MyStore.Test_Cases.Login_Page_Test"/>
+      <class name="com.qa.MyStore.Test_Cases.Home_Page_Test"/>
+      <class name="com.qa.MyStore.Test_Cases.Signup_Page_Test"/>
+      <class name="com.qa.MyStore.Test_Cases.Order_Page_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.MyStore.Test_Cases.Home_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.MyStore.Test_Cases.Home_Page_Test -->
+      <class name="com.qa.MyStore.Test_Cases.Login_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.MyStore.Test_Cases.Login_Page_Test -->
+      <class name="com.qa.MyStore.Test_Cases.Order_Page_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="product_order_Test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.MyStore.Test_Cases.Order_Page_Test -->
+      <class name="com.qa.MyStore.Test_Cases.Signup_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="register_account_test"/>
+        </methods>
+      </class> <!-- com.qa.MyStore.Test_Cases.Signup_Page_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
