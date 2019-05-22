@@ -13,7 +13,7 @@ public class Test_Base {
 	public static String src="C:\\Users\\admin\\workspace\\MyStore\\automation\\src\\main\\java\\com\\qa\\MyStore\\config\\config.properties";
 	public static WebDriver driver;
 	public static Properties prop;
-
+//commented
 	public Test_Base() 
 	{
 
