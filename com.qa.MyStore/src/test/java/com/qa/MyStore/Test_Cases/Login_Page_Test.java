@@ -26,6 +26,7 @@ public class Login_Page_Test extends Test_Base{
 		
 	}
 	
+	//title validation
 	@Test(priority=1)
 	public void ValidateLogin_Title_Test()
 	{
