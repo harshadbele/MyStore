@@ -1,4 +1,3 @@
 /test-output/*
+/.settings/*
 .classpath
-.class
-.html
