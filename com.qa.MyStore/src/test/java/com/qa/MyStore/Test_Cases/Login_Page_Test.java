@@ -40,6 +40,7 @@ public class Login_Page_Test extends Test_Base{
 	public void ValidateLogo_Display_Test()
 	{
 		Assert.assertTrue(loginPage.ValidateLogo_Display());
+		System.out.println("It's branch_C");
 	}
 	
 	@Test(priority=3)
@@ -47,6 +48,13 @@ public class Login_Page_Test extends Test_Base{
 	{
 		homePage.login_username_link();
 		homePage=loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
+	}
+	
+	@Test(priority=3)
+	public void logout_Test()
+	{
+		Assert.assertTrue(loginPage.ValidateLogo_Display());
+		System.out.println("Its Branch_C");
 	}
 	
 	@AfterMethod
