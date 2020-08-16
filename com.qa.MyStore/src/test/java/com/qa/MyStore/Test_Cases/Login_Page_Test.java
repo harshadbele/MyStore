@@ -34,12 +34,8 @@ public class Login_Page_Test extends Test_Base{
 		String expected="My Store";
 		Assert.assertEquals(actual,expected);
 	}
-	
-<<<<<<< HEAD
-	//logo validation
-=======
-	//logo validation 
->>>>>>> branch_C
+
+	//logo validation merging branch_B & branch_C
 	@Test(priority=2)
 	public void ValidateLogo_Display_Test()
 	{
