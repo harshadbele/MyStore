@@ -31,6 +31,13 @@ public class Home_Page_Test extends Test_Base{
 		loginPage=homePage.login_username_link();
 	}
 	
+	//comment sprint-2
+	@Test(priority=1)
+	public void login_password_link_Test()
+	{
+		loginPage=homePage.login_username_link();
+	}
+	
 	@AfterMethod
 	public void teardown(){
 		driver.close();
