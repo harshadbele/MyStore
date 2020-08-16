@@ -35,6 +35,7 @@ public class Login_Page_Test extends Test_Base{
 		Assert.assertEquals(actual,expected);
 	}
 	
+	//logo validation 
 	@Test(priority=2)
 	public void ValidateLogo_Display_Test()
 	{
