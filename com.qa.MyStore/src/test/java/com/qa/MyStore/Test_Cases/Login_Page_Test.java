@@ -36,6 +36,7 @@ public class Login_Page_Test extends Test_Base{
 	}
 
 	//logo validation merging branch_B & branch_C
+
 	@Test(priority=2)
 	public void ValidateLogo_Display_Test()
 	{
